@@ -1,0 +1,115 @@
+.background-image{
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    background-color: rgba(30, 160, 211, 90%);
+}
+.blink-soft {
+    color: #fff;
+    font-family: "jost";
+    font-weight: 600;
+    animation: blinker 1.5s linear infinite;
+    padding-top: 20px;
+}
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+.thank-you h2{
+    font-weight: 600;
+    color: #fff;
+    font-family: "jost";
+}
+@media(max-width:425px){
+    .thank-you h2{
+        font-size: 23px;
+        text-align: center;
+    }
+    .ty-para{
+        text-align: center;
+        font-size: 14px;
+    }
+}
+.thankyou-heart{
+    width: 8%;
+}
+.ty-para{
+    color: #fff;
+    font-family: "jost";
+    font-size: 16px;
+}
+.button{
+    color: #272829;
+    font-size: medium;
+    font-family: "jost" ;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px 10px;
+    outline: 0px none;
+    border: 1px solid #272829;
+    border-radius: 20px 20px 20px 20px;
+    display: block;
+    width: 250px;
+    background: #fff;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: 1s;
+    margin-bottom: 5px;
+}
+.button:hover{
+    background: #272829;
+    border-color: #272829;
+    transition:  1s;
+    color: #fff;
+}
+.contact-button{
+    color: #272829;
+    font-size: medium;
+    font-family: "jost";
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px 10px;
+    outline: 0px none;
+    border: 1px solid #272829;
+    border-radius: 20px 20px 20px 20px;
+    display: block;
+    width: 250px;
+    background: #fff;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: 1s;
+    margin-bottom: 10px;
+}
+.contact-button:hover{
+    background: #272829;
+    border-color: #272829;
+    transition:  1s;
+    color: #fff;
+}
+@media(max-width:425px){
+    .button{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .contact-button{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
+.image-container{
+    width: 90%; 
+    height: 90%;
+    overflow: hidden;
+}
+.image-container img{
+    width: 90%; 
+    height: 90%; 
+    display: block; 
+}

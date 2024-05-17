@@ -1,0 +1,147 @@
+.blink-soft {
+    color: #fff;
+    font-family: "jost";
+    font-weight: 600;
+    animation: blinker 1.5s linear infinite;
+}
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+
+h2{
+    font-weight: 700;
+    color: #fff;
+    font-family: "jost";
+}
+.contact{
+    color: #fdeeec;
+    font-family: "jost";
+    font-size: 15px;
+}
+.overlay_contact{
+    background-color: rgb(38 120 155 / 90%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.whatsapp-button{
+    color: #000;
+    font-size: smaller;
+    font-family: "jost";
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px 10px;
+    outline: 0px none;
+    border: 1px solid #000;
+    border-radius: 0px 20px 0px 20px;
+    display: block;
+    width: 160px;
+    background: #fff;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: 1s;
+}
+.whatsapp-button:hover{
+    background: #000;
+    border-color: #000;
+    transition:  1s;
+    color: #fff;
+}
+.expert-button{
+    color: #000;
+    font-size: smaller;
+    font-family: "jost";
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px 10px;
+    outline: 0px none;
+    border: 1px solid #000;
+    border-radius: 20px 0px 20px 0px;
+    display: block;
+    width: 160px;
+    background: #fff;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: 1s;
+}
+.expert-button:hover{
+    background: #000;
+    border-color: #000;
+    transition:  1s;
+    color: #fff;
+}
+
+@media(max-width:425px){
+    .whatsapp-button{
+        margin: auto;
+        width: 80%;
+        text-align: center;
+    }
+    .expert-button{
+        margin: auto;
+        width: 80%;
+        text-align: center;
+    }
+}
+.form-contact {
+    background-color: #fff;
+    border-radius:0px 20px 0px 20px;
+}
+
+.text-white-contact {
+    color: #fff !important;
+    font-size: 16px !important;
+    font-weight: 600;
+    background-color: #3896a7;
+    font-family: "jost";
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #3896a7;
+    border-radius: 0px 20px 0px 20px;
+}
+@media (max-width:425px){
+    .blink-soft{
+        text-align: center;
+    }
+}
+@media (max-width:425px){
+    h2{
+        text-align: center;
+    }
+}
+
+.form-control{
+    border: 1px solid #3896a7;
+    border-radius: 20px 0px 20px 0px;
+}
+.form-box-contact {
+    padding: 25px 15px 25px 15px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.btn-form {
+    background-color: #3896a7;
+    border-color: #3896a7;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-family: "jost";
+    padding: 10px 20px;
+    border: 1px solid #3896a7;
+    border-radius: 20px 0px 20px 0px;
+    width: 100%;
+    transition: 0.8s ease-in;
+}
+.btn-form:hover {
+    transition: 0.8s ease-in;
+    background-color: #272829;
+    border-color: #272829;
+    color: #fff;
+}

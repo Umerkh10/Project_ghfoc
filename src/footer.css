@@ -1,0 +1,172 @@
+.footer{
+    max-width: 100%;
+    background-color: #151517;
+    padding: 30px 0px;
+}
+img.logo-footer {
+    margin-bottom: 20px;
+}
+.footer-para {
+    font-family:"jost";
+    color: whitesmoke;
+    text-align: left;
+    line-height: 1.7;
+    margin-bottom: 5px;
+}
+svg.lucide.lucide-phone-call {
+    color: whitesmoke;
+}
+svg.lucide.lucide-mail {
+    color: whitesmoke;
+}
+ul.item {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 10px;
+}
+
+span.text-black {
+    padding-left: 10px;
+    color: whitesmoke;
+    font-weight: 500;
+    font-family:"jost";
+}
+.itemx{
+    padding-top: 10px;
+}
+
+h3.service-header {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: whitesmoke;
+    font-weight: 700;
+    font-family:"jost";
+}
+.footer-link {
+    list-style: none;
+    margin-top: 10px;
+}
+
+a.footer-list {
+    font-family: "jost";
+    line-height: 1.8;
+    color: whitesmoke;
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+}
+a.footer-list:hover{
+    color: deepskyblue;
+    font-weight: 500;
+    transition: 0.4s;
+    text-decoration: underline;
+}
+.policy-header{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-family: "jost";
+    color: whitesmoke;
+}
+.service{
+    list-style: none;
+    margin-top: 10px;
+}
+.policy-list {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    font-family: "jost";
+    font-weight: 400;
+    color: whitesmoke;
+}
+.policy-list:hover{
+    color: deepskyblue;
+    font-weight: 500;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+h3.contact-header {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: "Jost";
+    font-weight: 700;
+    color: whitesmoke;
+}
+.contact-list{
+    text-decoration: none;
+    font-size: large;
+    font-family: "jost";
+    color: whitesmoke;
+    font-weight: 400;
+}
+.contact-list:hover{
+    color: deepskyblue;
+    transition: 0.4s;
+    font-weight: 500;
+    text-decoration: underline;
+}
+a.text-black {
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+    font-weight: 400;
+    font-family: 'Jost';
+}
+h4.title {
+    color: whitesmoke;
+    font-family: "jost";
+    font-weight: 700;
+}
+svg.lucide.lucide-facebook {
+    background: white;
+    border-radius: 50px;
+    color: black;
+    margin-right: 20px;
+}
+svg.lucide.lucide-facebook:hover{
+    background: deepskyblue;
+    color: whitesmoke;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+svg.lucide.lucide-linkedin {
+    background: white;
+    color: black;
+    border-radius: 50%;
+    padding: 3px;
+}
+svg.lucide.lucide-linkedin:hover {
+    background: deepskyblue;
+    color: whitesmoke;
+    border-radius: 50%;
+    transition: 0.4s;
+    padding: 3px;
+}
+ul.icon-footer {
+    padding-left: 0px;
+}
+.disclaimer {
+    padding: 5px 10px 0px;
+}
+strong {
+    color: #00a3c0;
+}
+.disclaimer p {
+    color: #fff;
+    text-align: left;
+    font-size: 14px;
+    font-family: "jost";
+}
+.sec-copyright {
+    text-align: center;
+}
+.sec-copyright p {
+    margin-top: 5px;
+    font-size: 15px;
+    color: #fff;
+    font-family: "jost";
+}
+.foot-b {
+    font-weight: 500;
+}

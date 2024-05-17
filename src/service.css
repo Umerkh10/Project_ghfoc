@@ -1,0 +1,138 @@
+.sec-1-head{
+    font-family: "jost";
+    font-weight: 700;
+    margin-top: 10px;
+}
+.text-blue{
+    color:#2196F3 ;
+}
+.sec-1-para{
+    font-family: "jost";
+    font-weight: 500;
+    margin-top: 10px;
+}
+.text-blue-bg{
+    background-color: #2196F3;
+    padding: 1px;
+    color: white;
+}
+
+@media(max-width:768px) {
+    .banner-img {
+        display: none;
+    }
+}
+span.index-module_type__E-SaG {
+    font-size: 1.3em;
+    font-family: 'jost';
+    padding-left: 140px;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    span.index-module_type__E-SaG {
+      padding-left: 0; 
+    }
+}
+a.sec-1-btn {
+    display: inline-block;
+    background-color: #272829;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px 50px 10px;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    text-decoration: none;
+    font-family: "jost";
+    font-weight: 500;
+}
+a.sec-1-btn:hover{
+    transition: 0.5s;
+    background-color: #2196F3 ;
+    color: white;
+}
+.form-main {
+    position: relative;
+    background-color: #3896a7;
+    padding: 8px;
+    margin-left: auto;
+    border-radius: 10px;
+}
+.form-box {
+    padding: 25px 15px 25px 15px;
+    z-index: 1;
+    border: 3px dashed #fff;
+    border-radius: 10px;
+}
+.text-white{
+    font-family: "jost";
+    font-size: 20px;
+}
+.bg-black{
+    background-color: #272829;
+    padding: 2px;
+}
+.text-white-form-para{
+    font-family: "jost";
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.form-control{
+    font-family: "jost";
+}
+.btn-form{
+    background-color: #323232;
+    border-color: #323232;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    font-weight: 500;
+    font-family: "jost";
+    padding: 10px 20px;
+}
+.img-wrap img {
+    border-radius: 13px;
+}
+.as-content {
+    padding-left: 30px;
+}
+@media (max-width: 768px) {
+    .as-content {
+        text-align: center;
+        margin-top: 10px;
+        padding-left: 0px;
+    }
+}
+.cl-primary {
+    color: #272829;
+    font-weight: 700;
+    font-family: "jost";
+    text-decoration: underline 5px ;
+}
+.cl-primary .bg-black-own{
+    color: #3896a7;
+    font-weight: 700;
+    text-decoration: underline 5px #3896a7;
+}
+.exam-hed-3 {
+    font-family: "jost";
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-decoration: underline 5px ;
+}
+.exam-hed-3 .bg-black-own{
+    color: #3896a7;
+    font-weight: 700;
+    text-decoration: underline 5px #3896a7;
+}
+.para-exam {
+    font-family: "jost";
+    font-size: 17px;
+    font-weight: 400;
+}

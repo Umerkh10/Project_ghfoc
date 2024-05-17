@@ -1,0 +1,133 @@
+.overlay{
+    background-color: rgba(30, 160, 211, 80%);
+}
+
+.txt-padding{
+    padding-top: 70px;
+}
+.pol-hed-1{
+    font-family: "jost";
+    color: #fff;
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+}
+@media(max-width:425px){
+    .pol-hed-1{
+        text-align: center;
+    }
+    .text-pol{
+        text-align: center;
+    }
+}
+.text-pol{
+    font-family: "jost";
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 40px;
+}
+.sec-space{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pol-hed-2{
+    font-family: "jost";
+    margin-top: 15px;
+    font-weight: 700;
+    color: #3896a7;
+}
+.pol-para{
+    font-family: "jost";
+    font-size: 14px;
+}
+.list-unstyled{
+    font-family: "jost";
+    font-size: 15px;
+}
+.list-unstyled li i{
+    color: #3896a7;
+}
+
+.term-hed{
+    font-family: "jost";
+    font-weight: 800;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.term-para{
+    font-family: "jost";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.term-hed-2{
+    font-family: "jost";
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #3896a7;
+}
+
+.list-unstyled{
+    font-family: "jost";
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.list-unstyled li i{
+    color: #3896a7;
+}
+.term_button {
+display: flex;
+justify-content: center;
+}
+
+.term-btn-quote {
+    color: #000;
+    font-size: smaller;
+    font-family: "jost";
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px 10px;
+    outline: 0px none;
+    border: 1px solid #000;
+    border-radius: 20px 20px 20px 20px;
+    display: block;
+    width: 160px;
+    background: #fff;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: 1s;
+}
+.term-btn-quote:hover{
+    transition: 0.5s;
+    background-color: #2196F3 ;
+    color: white;
+}
+.term_whatsapp_button{
+    color: #000;
+    font-size: smaller;
+    font-family: "jost";
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px 10px;
+    outline: 0px none;
+    border: 1px solid #000;
+    border-radius: 20px 20px 20px 20px;
+    display: block;
+    width: 160px;
+    background: #fff;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: 1s;
+}
+.term_whatsapp_button:hover{
+    background: #000;
+    border-color: #000;
+    transition:  1s;
+    color: #fff;
+}

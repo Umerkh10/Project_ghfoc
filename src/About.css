@@ -1,0 +1,324 @@
+.blink-soft {
+    color: #fff;
+    font-family: "jost";
+    font-weight: 600;
+    animation: blinker 1.5s linear infinite;
+    
+}
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+h2{
+    font-weight: 600;
+    color: #fff;
+    font-family: "jost";
+}
+@media(max-width:425px){
+    h2{
+        text-align: center;
+    }
+    .contact{
+        text-align: center;
+    }
+}
+.overlay{
+    background-color: rgb(6 126 172 / 90%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contact{
+    color: #fff;
+    font-family: "jost";
+    font-size: 15px;
+}
+.por-one-about{
+    width: 25%;
+    padding-left: 17px;
+    margin: 0;
+}
+.bn-short-img2{
+    width: 30%;
+    background: #fff;
+    border-radius: 100%;
+    padding: 7px;
+}
+p.own-para{
+    margin-top: 7px;
+    line-height: 1.3;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 12px;
+    font-family: "jost";
+    margin-bottom: 0;
+}
+@media(max-width:768px){
+    .por-one-about{
+    width: 50%;
+    padding-left: 17px;
+    align-items: center !important;
+    margin-top: 10px;
+    }
+}
+.wa_button{
+    color: #000;
+    font-size: medium;
+    font-family: "jost";
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px 10px;
+    outline: 0px none;
+    border: 1px solid #3896a7;
+    border-radius: 20px 20px 20px 20px;
+    display: block;
+    width: 240px;
+    background: #fff;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: 1s;
+    margin-bottom: 5px;
+}
+.wa_button:hover{
+    background: #000;
+    border-color: #000;
+    transition:  1s;
+    color: #fff;
+}
+.discuss_expert_button{
+    color: #000;
+    font-size: medium;
+    font-family: "jost";
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px 10px;
+    outline: 0px none;
+    border: 1px solid #3896a7;
+    border-radius: 20px 20px 20px 20px;
+    display: block;
+    width: 240px;
+    background: #fff;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: 1s;
+    margin-bottom: 10px;
+}
+.discuss_expert_button:hover{
+    background: #000;
+    border-color: #000;
+    transition:  1s;
+    color: #fff;
+}
+@media(max-width:425px){
+    .wa_button{
+        margin: auto;
+        width: 80%;
+        text-align: center;
+    }
+    .discuss_expert_button{
+        margin: auto;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
+.image-container{
+    width: 90%; 
+    height: 90%;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.image-container img{
+    width: 90%; 
+    height: 90%; 
+    display: block; 
+}
+.sec3{
+    background-color: #fff;
+}
+.redish-text {
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    font-family: "jost";
+}
+@media(max-width:425px){
+    .redish-text{
+        text-align: center;
+    }
+    .quality-text{
+        text-align: center;
+    }
+    p.sec3-para{
+        text-align: center;
+    }
+    .para-height{
+        text-align: center;
+    }
+}
+.quality-text {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "jost";
+    text-transform: capitalize;
+    font-weight: 600;
+}
+p.sec3-para {
+    font-family: "jost";
+}
+.free-fea{
+    font-size: 20px;
+}
+.wid-3{
+    width: 33% !important;
+    text-align: left;
+    font-size: 13px;
+    font-family: "jost";
+    font-weight: 500;
+}
+.para-height{
+    height: 135px;
+    padding-right: 29px;
+    overflow-y: scroll;
+}
+.para-height::-webkit-scrollbar{
+	width: 5px
+}
+.para-height::-webkit-scrollbar-track{
+	background: rgba(0,0,0,0.04)
+}
+.para-height::-webkit-scrollbar-thumb{
+	background: #00a3c0
+}
+.para-mb-cnt {
+    font-family: "jost";
+}
+.sec_hed_red {
+    font-size: 35px;
+    font-weight: 800;
+    margin: auto;
+    font-family: "jost";
+}
+.hed-sec-3{
+    font-size: 26px;
+    color: #fff;
+    padding-bottom: 10px;
+    font-family: "jost";
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.para-blue {
+    color: #fff;
+    padding-bottom: 20px;
+    font-family: "jost";
+    font-size: 15px;
+}
+.we-offer-area .item {
+    box-shadow: 0 0 5px 0 #f8f9fa;
+    overflow: hidden;
+    padding: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    height: 400px;
+    color: #fff !important;
+    background: #00a3c0;
+    background-size: 400% 400%;
+    transform: scale(0.9);
+}
+.we-offer-area .item:hover{
+    transition: 0.4s;
+    box-shadow: 0 0 10px 0 #ffffff;
+    transform: scale(1.0);
+}
+.we-offer-area.text-center .item i {
+    background: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #00a3c0;
+    font-size: 40px;
+    height: 80px;
+    line-height: 80px;
+    position: relative;
+    text-align: center;
+    width: 80px;
+    z-index: 1;
+    margin-bottom: 25px;
+}
+.we-offer-area .item h4 {
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-family: "jost";
+    padding-bottom: 5px;
+}
+.service-ovrf {
+    height: 170px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 10px;
+    font-family: "jost";
+    scroll-behavior: smooth;
+}
+.service-ovrf::-webkit-scrollbar{
+	width: 3px
+}
+.service-ovrf::-webkit-scrollbar-track{
+	background: rgba(0,0,0,0.04)
+}
+.service-ovrf::-webkit-scrollbar-thumb{
+	background: #fff
+}
+.sec4{
+    background: linear-gradient(69deg, #000 50%, #3896a7 33%) !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.blink-soft h2{
+    color: #fff;
+    font-family: "jost";
+    font-weight: 700;
+    animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+.ban-hed2{
+    color: #fff;
+    font-size: 22px;
+    font-family: "jost";
+}
+.ban-para{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0;
+    font-family: "jost";
+    padding-top: 15px;
+}
+.whatsapp-btn{
+    color: #fff !important;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 20px 9px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: "jost";
+    display: block;
+    border-radius: 25px;
+    text-transform: uppercase;
+    background: linear-gradient(278deg, #3896a7, #000, #000, #3896a7);
+    transition: 0.9s ease-in;
+    background-size: 400% 400% !important;
+}
+.whatsapp-btn:hover {
+    background: #fff !important;
+    color: #000 !important;
+    transition: 0.9s ease-in;
+}
