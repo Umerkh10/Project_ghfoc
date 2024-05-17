@@ -34,7 +34,7 @@ const Home = () => {
 
                   <h1 className='sec-1-head'>Online Class Help For All Academic Level With <span className='text-blue'> Phd Experts</span></h1>
                   <div className='sec-1-para'>
-                    <p>Get help for Online class offers assistance <span className='text-blue-bg'> all courses </span> at all <span className='text-blue-bg'> academic levels </span> score your <span className='text-blue-bg'> desired marks </span> with a team of top-tier instructors at most <span className='text-blue-bg'> affordable prices </span> </p>
+                    <p>Get help for Online class offers assistance with <span className='text-blue-bg'> all courses </span> at all <span className='text-blue-bg'> academic levels </span> score your <span className='text-blue-bg'> desired marks </span> with a team of top-tier instructors at most <span className='text-blue-bg'> affordable prices </span> </p>
                   </div>
 
                   <div className='btn'>
