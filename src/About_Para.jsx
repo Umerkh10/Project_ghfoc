@@ -1,5 +1,6 @@
 import React from 'react'
 import "./About.css"
+import sec_2_about from './assets/about-imgs/sec-2-about.webp'
 
 const About_Para = () => {
   return (
@@ -92,7 +93,7 @@ const About_Para = () => {
 
                         <div class="col-md-5">
                             <div class="img-sec-three my-3">
-                                <img class="image-container" src="src\assets\about-imgs\sec-2-about.webp" alt=""/>
+                                <img class="image-container" src={sec_2_about} alt=""/>
                             </div>
                         </div>
 

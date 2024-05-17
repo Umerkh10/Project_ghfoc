@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import "./About.css"
 import background from './assets/about-imgs/background-about.webp'
-import Popup_Modal from './Popup_Modal';
+import about_img_1 from './assets/about-imgs/pngwing.com (4).webp'
+import about_img_2 from './assets/about-imgs/pngwing.com (7).webp'
+import about_img_3 from './assets/about-imgs/star.webp'
+import about_img_4 from './assets/about-imgs/pngwing.com (3).webp'
+import about_banner from './assets/about-imgs/about-banner.webp'
 
 
 const About = () => {
@@ -30,22 +34,22 @@ const About = () => {
 
                                     <div class="row my-3">
                                         <div class="por-one-about d-flex align-items-center">
-                                            <img src="src\assets\about-imgs\pngwing.com (4).webp" class="bn-short-img2" alt=""/>
+                                            <img src={about_img_1} class="bn-short-img2" alt=""/>
                                             <p class="own-para">Subject Experts With Flair of Academic Writing</p>
                                         </div>
 
                                         <div class="por-one-about d-flex align-items-center">
-                                            <img src="src\assets\about-imgs\pngwing.com (7).webp" class="bn-short-img2" alt=""/>
+                                            <img src={about_img_2} class="bn-short-img2" alt=""/>
                                             <p class="own-para">100% FREE Turnitin Report on Time</p>
                                         </div>
 
                                         <div class="por-one-about d-flex align-items-center">
-                                            <img src="src\assets\about-imgs\star.webp" class="bn-short-img2" alt=""/>
+                                            <img src={about_img_3} class="bn-short-img2" alt=""/>
                                             <p class="own-para">17,3456+ Clients 100% Satisfaction Rate</p>
                                         </div>
 
                                         <div class="por-one-about d-flex align-items-center">
-                                            <img src="src\assets\about-imgs\pngwing.com (3).webp" class="bn-short-img2" alt=""/>
+                                            <img src={about_img_4} class="bn-short-img2" alt=""/>
                                             <p class="own-para">Highest Grade A+ Worthy Assignments</p>
                                         </div>
                                     </div>
@@ -67,7 +71,7 @@ const About = () => {
                                 </div>
 
                                 <div class="col-md-4 text-center justify-content-center m-auto">
-                                    <img class="image-container" src="src\assets\about-imgs\about-banner.webp" alt=""/>
+                                    <img class="image-container" src={about_banner} alt=""/>
                                 </div>
 
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./thank.css"
 import background from './assets/about-imgs/background-graduate-vector.webp'
+import thank_you_banner from './assets/about-imgs/thank-you-banner.webp'
 
 const Thank_You = () => {
   return (
@@ -41,7 +42,7 @@ const Thank_You = () => {
                                 </div>
 
                                 <div class="col-md-4 text-center justify-content-center m-auto">
-                                    <img class="image-container" src="src\assets\about-imgs\thank-you-banner.webp" alt=""/>
+                                    <img class="image-container" src={thank_you_banner} alt=""/>
                                 </div>
 
                             </div>
