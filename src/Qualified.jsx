@@ -96,15 +96,15 @@ const Qualified = () => {
                                 </div>
                                 <div className="col-lg-8 mb-3">
                                     <Slider className="customer-logos" {...settings}>
-                                        <div className="slide"><img src={Uni_img_1} alt="uni_1" /></div>
-                                        <div className="slide"><img src={Uni_img_2} alt="uni_2" /></div>
-                                        <div className="slide"><img src={Uni_img_3} alt="uni_3" /></div>
-                                        <div className="slide"><img src={Uni_img_4} alt="uni_4" /></div>
-                                        <div className="slide"><img src={Uni_img_5} alt="uni_5" /></div>
-                                        <div className="slide"><img src={Uni_img_6} alt="uni_6" /></div>
-                                        <div className="slide"><img src={Uni_img_7} alt="uni_7" /></div>
-                                        <div className="slide"><img src={Uni_img_1} alt="uni_1" /></div>
-                                        <div className="slide"><img src={Uni_img_2} alt="uni_2" /></div>
+                                        <div className="slide"><img src={Uni_img_1} alt="" /></div>
+                                        <div className="slide"><img src={Uni_img_2} alt="" /></div>
+                                        <div className="slide"><img src={Uni_img_3} alt="" /></div>
+                                        <div className="slide"><img src={Uni_img_4} alt="" /></div>
+                                        <div className="slide"><img src={Uni_img_5} alt="" /></div>
+                                        <div className="slide"><img src={Uni_img_6} alt="" /></div>
+                                        <div className="slide"><img src={Uni_img_7} alt="" /></div>
+                                        <div className="slide"><img src={Uni_img_1} alt="" /></div>
+                                        <div className="slide"><img src={Uni_img_2} alt="" /></div>
                                     </Slider>
                                 </div>
                             </div>
