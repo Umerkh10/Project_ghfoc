@@ -98,7 +98,7 @@ return (
                 <div>
                     <div class="card equal-height">
                         <div class="card-header">
-                            <img src={Testi_png} />
+                            <img src={Testi_png} style={{width:`40%`,height:`auto`}} alt='testimonial_1' />
                         </div>
                         <div class="card-body">
                             <div class="card-content">
@@ -125,7 +125,7 @@ return (
                 <div>
                     <div class="card">
                         <div class="card-header">
-                            <img src={Testi_png_1} />
+                            <img src={Testi_png_1} style={{width:`40%`,height:`auto`}} alt='testimonial_2' />
                         </div>
                         <div class="card-body">
                             <div class="card-content">
@@ -152,7 +152,7 @@ return (
                 <div>
                     <div class="card">
                         <div class="card-header">
-                            <img src={Testi_png} />
+                            <img src={Testi_png} style={{width:`40%`,height:`auto`}} alt='testimonial_3' />
                         </div>
                         <div class="card-body">
                             <div class="card-content">
@@ -179,7 +179,7 @@ return (
                 <div>
                     <div class="card">
                         <div class="card-header">
-                            <img src={Testi_png_1} />
+                            <img src={Testi_png_1} style={{width:`40%`,height:`auto`}} alt='testimonial_4' />
                         </div>
                         <div class="card-body">
                             <div class="card-content">
@@ -206,7 +206,7 @@ return (
                 <div>
                     <div class="card">
                         <div class="card-header">
-                            <img src={Testi_png} />
+                            <img src={Testi_png} style={{width:`40%`,height:`auto`}} alt='testimonial_5' />
                         </div>
                         <div class="card-body">
                             <div class="card-content">
@@ -233,7 +233,7 @@ return (
                 <div>
                     <div class="card">
                         <div class="card-header">
-                            <img src={Testi_png_1} />
+                            <img src={Testi_png_1} style={{width:`40%`,height:`auto`}} alt='testimonial_6'/>
                         </div>
                         <div class="card-body">
                             <div class="card-content">
