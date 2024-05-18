@@ -259,19 +259,19 @@ const Order_form = () => {
     return (
 
         <form onSubmit={handleFormSubmit}>
-            <div class="order-section">
-                <div class="col-lg-12">
-                    <div class="background-image-order">
-                        <div class="overlay">
-                            <div class="row mx-0">
-                                <div class="col-lg-4 mt-3">
-                                    <div class="container">
-                                        <div class="order">
-                                            <div class="order-main">
-                                                <h2 class="header-form">Order Details</h2>
-                                                <div class="tab">
+            <div className="order-section">
+                <div className="col-lg-12">
+                    <div className="background-image-order">
+                        <div className="overlay">
+                            <div className="row mx-0">
+                                <div className="col-lg-4 mt-3">
+                                    <div className="container">
+                                        <div className="order">
+                                            <div className="order-main">
+                                                <h2 className="header-form">Order Details</h2>
+                                                <div className="tab">
                                                     <div>
-                                                        <div class="order-input">
+                                                        <div className="order-input">
 
                                                             <div>
                                                                 <h3 style={{ fontSize: '15px', fontFamily: 'jost' }} className="mb-1">Type of Service</h3>
@@ -415,11 +415,11 @@ const Order_form = () => {
                                     </div>
                                 </div>
 
-                                <div class="col-lg-4 mt-3">
-                                    <div class="order-contact">
-                                        <h2 class="header-contact">Contact Details</h2>
-                                        <div class="contact-main">
-                                            <div class="tab">
+                                <div className="col-lg-4 mt-3">
+                                    <div className="order-contact">
+                                        <h2 className="header-contact">Contact Details</h2>
+                                        <div className="contact-main">
+                                            <div className="tab">
                                                 <div className="user-input">
                                                     <div className="user-name">
                                                         <h3 style={{ fontSize: '15px', fontFamily: 'jost' }} className="mb-1">Your Name:</h3>
@@ -476,10 +476,10 @@ const Order_form = () => {
                                     </div>
                                 </div>
 
-                                <div class="col-lg-4 mt-3">
-                                    <div class="container">
-                                        <div class="order-detail">
-                                            <h2 class="header-detail">Order Summary</h2>
+                                <div className="col-lg-4 mt-3">
+                                    <div className="container">
+                                        <div className="order-detail">
+                                            <h2 className="header-detail">Order Summary</h2>
                                             <div className="topics-container">
 
                                                 <div className="detail-text">

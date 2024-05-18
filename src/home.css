@@ -80,9 +80,7 @@
     padding: 1px;
     color: white;
 }
-.iti.iti--allow-dropdown.iti--show-flags {
-    width: 100%;
-}
+
 
 @media(max-width:1024px) {
     .banner-img {
@@ -560,11 +558,7 @@ svg.lucide.lucide-check {
 .slick-arrow.slick-hidden {
     display: none;
 }
-/* .slick-track {
-    width: 3700px;
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px);
-} */
+
 .achievement-left h3 {
     color: #fff;
     font-weight: bold;
@@ -782,9 +776,6 @@ button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
     margin: 20px 0px 1px 0px;
     border: #fff solid 2px;
     border-radius: 25px;
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
     cursor: pointer;
 }
@@ -1025,9 +1016,7 @@ textarea {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
-    -webkit-transition: opacity 0.5s 0s, visibility 0s 0.5s;
-    -moz-transition: opacity 0.5s 0s, visibility 0s 0.5s;
-    transition: opacity 0.5s 0s, visibility 0s 0.5s;
+ 
 }
 .bts-popup.is-visible {
     opacity: 1;
@@ -1045,8 +1034,6 @@ textarea {
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
-    -webkit-transition-duration: 0.5s;
-    -moz-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
 .bts-popup-container img {
@@ -1108,10 +1095,7 @@ textarea {
     top: 13px;
 }
 .is-visible .bts-popup-container {
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
+ 
     transform: translateY(0);
 }
 @media only screen and (min-width: 1170px) {
