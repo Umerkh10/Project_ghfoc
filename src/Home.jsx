@@ -47,7 +47,7 @@ const Home = () => {
 
 
               <div className="col-lg-4">
-                <img className='banner-img' src={bannerImage} width={100%} height={auto} alt="bannerImage" />
+                <img className='banner-img' src={bannerImage} width={100} height={auto} alt="bannerImage" />
               </div>
 
               <Form />

@@ -23,28 +23,28 @@ const Payment = () => {
                             <div class="col-sm-6 col-lg-3">
                               
                                     <div class="pay-box">
-                                        <img src={Payment_1} height="130" alt=""/>
+                                        <img src={Payment_1} height="130" alt="bank_transfer"/>
                                         <p>Bank/Wire Transfer</p>
                                     </div>
                             </div>
 
                             <div class="col-sm-6 col-lg-3">
                                 <div class="pay-box">
-                                    <img src={Payment_2} height="130" alt=""/>
+                                    <img src={Payment_2} height="130" alt="online_transfer"/>
                                     <p>Online Credit/Debit Card</p>
                                 </div>
                             </div>
 
                             <div class="col-sm-6 col-lg-3">
                                 <div class="pay-box">
-                                    <img src={Payment_3} height="130" alt=""/>
+                                    <img src={Payment_3} height="130" alt="wu_transfer"/>
                                     <p>Western Union</p>
                                 </div>
                             </div>
 
                             <div class="col-sm-6 col-lg-3">
                                 <div class="pay-box">
-                                    <img src={Payment_4} height="130" alt=""/>
+                                    <img src={Payment_4} height="130" alt="stripe_method"/>
                                     <p>Stripe</p>
                                 </div>
                             </div>
