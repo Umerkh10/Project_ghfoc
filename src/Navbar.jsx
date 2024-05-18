@@ -1,6 +1,7 @@
 import "./Navbar.css"
 import { Link } from 'react-router-dom'
 import logo from './assets/project imgs/logo.webp'
+import { useState } from "react";
 function Navbar() {
     const navLink = [
         {
@@ -21,20 +22,30 @@ function Navbar() {
             path: "/Order_form",
         },
     ]
+
+    const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+
+    const handleNavCollapse = () => {
+
+        setIsNavCollapsed(!isNavCollapsed)
+    };
     return (
 
         <nav class="header navbar navbar-expand-lg ">
             <div class="container-fluid">
                 <Link className="nav-logo" to="/">
                     <img className="logo" src={logo} height="60px" width="200px" alt="Logo" />
-                </Link>               
-                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor04"
+                </Link>
+                {/* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor04"
                     aria-controls="navbarColor04" aria-expanded="false" aria-label="Toggle navigation">
                     <span>
                         <i id="bar" class="fa-solid fa-bars"></i>
                     </span>
+                </button> */}
+                <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
+                    <span class="navbar-toggler-icon"> <i id="bar" class="fa-solid fa-bars"></i></span>
                 </button>
-                <div class="navigation collapse navbar-collapse" id="navbarColor04">
+                <div class={`${isNavCollapsed ? "collapse":""}   navigation  navbar-collapse`} id="navbarColor04">
                     <ul class="menu navbar-nav ms-auto">
                         {navLink.map((element, i) => (
 
