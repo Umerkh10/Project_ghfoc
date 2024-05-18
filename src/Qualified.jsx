@@ -75,7 +75,7 @@ const Qualified = () => {
                         <div class="col-md-6">
                             <div class="qualified-img">
                                 <div class="image-container">
-                                    <img src={Qualified_right} alt="" />
+                                    <img src={Qualified_right} style={{width:`100%`,height:`auto`}} height={600} width={400} alt="qualified" />
                                 </div>
                             </div>
                         </div>
