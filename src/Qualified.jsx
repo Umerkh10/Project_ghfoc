@@ -96,15 +96,15 @@ const Qualified = () => {
                                 </div>
                                 <div className="col-lg-8 mb-3">
                                     <Slider className="customer-logos" {...settings}>
-                                        <div className="slide"><img src={Uni_img_1} style={{width:`60%`,height:`auto`,verticalAlign:`middle` }} alt="uni_1" /></div>
-                                        <div className="slide"><img src={Uni_img_2} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} alt="uni_2" /></div>
-                                        <div className="slide"><img src={Uni_img_3} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} alt="uni_3" /></div>
-                                        <div className="slide"><img src={Uni_img_4} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} alt="uni_4" /></div>
-                                        <div className="slide"><img src={Uni_img_5} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} alt="uni_5" /></div>
-                                        <div className="slide"><img src={Uni_img_6} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} alt="uni_6" /></div>
-                                        <div className="slide"><img src={Uni_img_7} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} alt="uni_7" /></div>
-                                        <div className="slide"><img src={Uni_img_1} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} alt="uni_8" /></div>
-                                        <div className="slide"><img src={Uni_img_2} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} alt="uni_9" /></div>
+                                        <div className="slide"><img src={Uni_img_1} style={{width:`60%`,height:`auto`,verticalAlign:`middle` }} width={200} height={400} alt="uni_1" /></div>
+                                        <div className="slide"><img src={Uni_img_2} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={400} alt="uni_2" /></div>
+                                        <div className="slide"><img src={Uni_img_3} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={400} alt="uni_3" /></div>
+                                        <div className="slide"><img src={Uni_img_4} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={400} alt="uni_4" /></div>
+                                        <div className="slide"><img src={Uni_img_5} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={400} alt="uni_5" /></div>
+                                        <div className="slide"><img src={Uni_img_6} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={400} alt="uni_6" /></div>
+                                        <div className="slide"><img src={Uni_img_7} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={400} alt="uni_7" /></div>
+                                        <div className="slide"><img src={Uni_img_1} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={400} alt="uni_8" /></div>
+                                        <div className="slide"><img src={Uni_img_2} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={400} alt="uni_9" /></div>
                                     </Slider>
                                 </div>
                             </div>

@@ -490,7 +490,9 @@ svg.lucide.lucide-check {
     transition: 0.8s;
 }
 
-
+.slick-slide img {
+    width: 50%;
+}
 @media (max-width: 767px) {
     .slick-list {
         position: relative;
@@ -558,7 +560,11 @@ svg.lucide.lucide-check {
 .slick-arrow.slick-hidden {
     display: none;
 }
-
+/* .slick-track {
+    width: 3700px;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+} */
 .achievement-left h3 {
     color: #fff;
     font-weight: bold;
@@ -641,7 +647,9 @@ svg.lucide.lucide-check {
     justify-content: center;
     background-color: #fff;
 }
-
+.card-header img {
+    width: 40%;
+}
 .card {
     margin: 15px;
     height: 425px;
