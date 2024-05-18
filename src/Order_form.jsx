@@ -4,6 +4,10 @@ import PageSelect from './Order_page_testing';
 import Order_form_Country from './Order_form_Country';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import detail_img_1 from './assets/project imgs/24-7-badge.png'
+import detail_img_2 from './assets/project imgs/detail-img-2.png'
+import detail_img_3 from './assets/project imgs/detail-img-3-removebg-preview_11zon.png'
+import detail_badge from './assets/project imgs/badge.png'
 
 const Order_form = () => {
 
@@ -557,9 +561,9 @@ const Order_form = () => {
 
 
                                             <div className="detail-img">
-                                                <img height="90" width="90" src="src/assets/project imgs/24-7-badge.png" alt="" className="img-detail" />
-                                                <img height="90" width="90" src="src/assets/project imgs/detail-2-removebg-preview_11zon.png" alt="" className="img-detail" />
-                                                <img height="90" width="90" src="src/assets/project imgs/detail-img-3-removebg-preview_11zon.png" alt="" className="img-detail" />
+                                                <img height={"90"} width={"90"} src={detail_img_1} alt="detail_img_1" className="img-detail" />
+                                                <img height={"90"} width={"90"} src={detail_img_2} alt="detail_img_2" className="img-detail" />
+                                                <img height={"90"} width={"90"} src={detail_img_3} alt="detail_img_3" className="img-detail" />
                                             </div>
 
 
@@ -626,7 +630,7 @@ const Order_form = () => {
                                                 </ul>
                                             </div>
 
-                                            <img class="detail-badge" src="src/assets/project imgs/badge.png" alt="" />
+                                            <img class="detail-badge" src={detail_badge} width={"400"} height={"200"}  alt="detail_badge" />
 
                                         </div>
                                     </div>
