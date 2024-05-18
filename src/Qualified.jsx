@@ -103,8 +103,8 @@ const Qualified = () => {
                                         <div className="slide"><img src={Uni_img_5} alt="uni_5" /></div>
                                         <div className="slide"><img src={Uni_img_6} alt="uni_6" /></div>
                                         <div className="slide"><img src={Uni_img_7} alt="uni_7" /></div>
-                                        <div className="slide"><img src={Uni_img_1} alt="uni_8" /></div>
-                                        <div className="slide"><img src={Uni_img_2} alt="uni_9" /></div>
+                                        <div className="slide"><img src={Uni_img_1} alt="uni_1" /></div>
+                                        <div className="slide"><img src={Uni_img_2} alt="uni_2" /></div>
                                     </Slider>
                                 </div>
                             </div>

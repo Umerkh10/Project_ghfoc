@@ -42,7 +42,7 @@ const Online_test = () => {
 
 
           <div className="col-lg-4">
-            <img className='banner-img' src={bannerImage} alt="image_banner" />
+            <img className='banner-img' src={bannerImage} alt="" />
           </div>
 
           <Form/>
