@@ -8,6 +8,7 @@ import detail_img_1 from './assets/project imgs/24-7-badge.png'
 import detail_img_2 from './assets/project imgs/detail-img-2.png'
 import detail_img_3 from './assets/project imgs/detail-img-3-removebg-preview (2).png'
 import detail_badge from './assets/project imgs/badge.png'
+import { Helmet } from 'react-helmet';
 
 const Order_form = () => {
 
@@ -257,6 +258,12 @@ const Order_form = () => {
       navigate("/Thank_You");
     };
     return (
+<>
+        <Helmet>
+        <meta charSet="utf-8" />
+        <title>Order Form | Get Help For Online Class</title>
+        <meta name="description" content="Get help for your online classes from our experts" />
+    </Helmet>
 
         <form onSubmit={handleFormSubmit}>
             <div className="order-section">
@@ -641,7 +648,7 @@ const Order_form = () => {
                 </div>
             </div>
         </form>
-
+        </>
     )
 }
 

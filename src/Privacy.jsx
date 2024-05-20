@@ -1,6 +1,7 @@
 import React, {  useState } from 'react'
 import "./policy.css"
 import Popup_Modal from './Popup_Modal';
+import { Helmet } from 'react-helmet';
 
 
 const Privacy = () => {
@@ -8,6 +9,14 @@ const Privacy = () => {
  
     
   return (
+
+    <>
+    <Helmet>
+    <meta charSet="utf-8" />
+    <title>Privacy Policy | Get Help For Online Class</title>
+    <meta name="description" content="Get help for your online classes from our experts" />
+</Helmet>
+
     <div>
         
     <div class="privacy">
@@ -116,6 +125,7 @@ const Privacy = () => {
 
 
     </div>
+    </>
   )
 }
 

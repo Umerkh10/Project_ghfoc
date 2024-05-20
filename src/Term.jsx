@@ -1,12 +1,21 @@
 import React, { useState } from 'react'
 import Popup_Modal from './Popup_Modal';
 import background from './assets/about-imgs/term_back.webp'
+import { Helmet } from 'react-helmet';
 
 
 const Term = () => {
     const [showmodal, setShowModal] = useState(false)
 
     return (
+
+        <>
+        <Helmet>
+        <meta charSet="utf-8" />
+        <title>Terms & Conditions | Get Help For Online Class</title>
+        <meta name="description" content="Get help for your online classes from our experts" />
+    </Helmet>
+
         <div>
             <div class="banner-content mt-3">
                 <div class="container-fluid">
@@ -79,6 +88,7 @@ const Term = () => {
                     </div>
             </div>
         </div>
+        </>
     )
 }
 

@@ -4,6 +4,7 @@ import bannerImage from './assets/project imgs/banner-3.webp';
 import Form from './Form';
 import Popup_Modal from './Popup_Modal';
 import { TypeAnimation } from 'react-type-animation';
+import { Helmet } from 'react-helmet';
 
 
 const Online_Class = () => {
@@ -13,6 +14,12 @@ const Online_Class = () => {
   return (
 
     <>
+       <Helmet>
+        <meta charSet="utf-8" />
+        <title>Online Class | Get Help For Online Class</title>
+        <meta name="description" content="Get help for your online classes from our experts" />
+    </Helmet>
+
       <TypeAnimation
         sequence={[
           'We Provide FAST SERVICE',

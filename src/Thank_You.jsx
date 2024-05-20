@@ -2,9 +2,17 @@ import React from 'react'
 import "./thank.css"
 import background from './assets/about-imgs/background-graduate-vector.webp'
 import thank_you_banner from './assets/about-imgs/thank-you-banner.webp'
+import { Helmet } from 'react-helmet'
 
 const Thank_You = () => {
   return (
+    <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title> Thank You | Get Help For Online Class</title>
+        <meta name="description" content="Get help for your online classes from our experts" />
+    </Helmet>
+
     <div>
             <section class="thank-you">
         <div class="background-image" style={{backgroundImage:`url(${background})`}}>
@@ -53,6 +61,7 @@ const Thank_You = () => {
         </div>
     </section>
     </div>
+    </>
   )
 }
 

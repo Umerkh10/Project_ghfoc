@@ -63,7 +63,7 @@ const Qualified = () => {
                                                     Guranteed A Grade</li>
                                             </div>
                                             <div class="action-row">
-                                                <a onClick={() => setShowModal(true)} class="btn-primary"> Get Help Now</a>
+                                                <a href='#' onClick={() => setShowModal(true)} class="btn-primary"> Get Help Now</a>
                                                 {showmodal && <Popup_Modal onClose={() => setShowModal(false)} />}
 
                                             </div>

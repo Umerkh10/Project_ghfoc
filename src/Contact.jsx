@@ -2,6 +2,7 @@ import './contact.css'
 import background from './assets/about-imgs/background-about.webp'
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 
 function contact(){
@@ -37,7 +38,13 @@ else{
 }}
 
     return(
-      
+      <>
+        <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contact Us | Get Help For Online Class</title>
+        <meta name="description" content="Get help for your online classes from our experts" />
+    </Helmet>
+
         <div class="contact-sec">
         <div class="background-image-form" style={{backgroundImage:`url(${background})`,backgroundPosition:`center`, backgroundSize:`cover`}} >
         <div class="overlay_contact">
@@ -95,7 +102,7 @@ else{
             </div>
         </div>
     </div>
-
+</>
 
 
     )

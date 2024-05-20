@@ -6,12 +6,21 @@ import about_img_2 from './assets/about-imgs/pngwing.com_7.webp'
 import about_img_3 from './assets/about-imgs/star.webp'
 import about_img_4 from './assets/about-imgs/pngwing.com (3).webp'
 import about_banner from './assets/about-imgs/about-banner.webp'
+import { Helmet } from 'react-helmet'
 
 
 const About = () => {
 
 
   return (
+
+    <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>About US | Get Help For Online Class</title>
+        <meta name="description" content="Get help for your online classes from our experts" />
+    </Helmet>
+
     <div>
 
 <div class="sec-1-about">
@@ -83,6 +92,7 @@ const About = () => {
         </div>
         </div>
     </div>
+    </>
 
   )
 }
