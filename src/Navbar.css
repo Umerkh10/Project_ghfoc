@@ -17,7 +17,7 @@ img.logo {
     width: 200px;
     margin-top: 10px;
 }
-@media(max-width:374px){
+@media(max-width:377px){
     img.logo {
         margin-left: 50px;
         height: 60px;
