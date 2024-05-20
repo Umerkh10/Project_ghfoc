@@ -3,7 +3,7 @@ import "./home.css"
 import Payment_1 from './assets/payment-pngs/money-transfer.webp'
 import Payment_2 from './assets/payment-pngs/pngwing.com.webp'
 import Payment_3 from './assets/payment-pngs/union.png.webp'
-import Payment_4 from './assets/payment-pngs/pngwing.com (1).webp'
+import Payment_4 from './assets/payment-pngs/pngwing.com__1.webp'
 
 const Payment = () => {
   return (

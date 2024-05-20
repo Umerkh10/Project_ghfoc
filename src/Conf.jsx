@@ -32,7 +32,7 @@ const Conf = () => {
                         <div className="col-lg-7">
                             <div className="img-prof">
                                 <div className="prof-container">
-                                    <img src={Confi_right} alt=""/>
+                                    <img src={Confi_right} width={400} height={400} alt="confidentiality"/>
                                 </div>
                             </div>
                         </div>

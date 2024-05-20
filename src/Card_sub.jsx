@@ -22,7 +22,7 @@ const Card_sub = () => {
                             professionals handle your tests while you sit back and relax.
                         </p>
 
-                        <a  onClick={() => setShowModal(true)} class="btn-modal "> Get Help Now</a>
+                        <a href='#' onClick={() => setShowModal(true)} class="btn-modal "> Get Help Now</a>
                     </div>
                 </div>
 
@@ -39,7 +39,7 @@ const Card_sub = () => {
                             everything
                             from chemistry to physics to mathematics.
                         </p>
-                        <a  onClick={() => setShowModal(true)} class="btn-modal"> Get Help Now</a>
+                        <a href='#' onClick={() => setShowModal(true)} class="btn-modal"> Get Help Now</a>
                     </div>
                 </div>
 
@@ -53,7 +53,7 @@ const Card_sub = () => {
                             assignment. Simply
                             sign up, share your assignment, pay the cost, and have your homework completed by
                             specialists. Contact our specialists in over 70 different areas.</p>
-                        <a  onClick={() => setShowModal(true)} class="btn-modal"> Get Help Now</a>
+                        <a href='#' onClick={() => setShowModal(true)} class="btn-modal"> Get Help Now</a>
                     </div>
                 </div>
 
@@ -67,7 +67,7 @@ const Card_sub = () => {
                             You've come to the
                             correct place. We have pros that can assist you in over 70 different areas. Do not be
                             concerned if you are preoccupied with your routine.</p>
-                        <a onClick={() => setShowModal(true)} class="btn-modal"> Get Help Now</a>
+                        <a href='#' onClick={() => setShowModal(true)} class="btn-modal"> Get Help Now</a>
                     </div>
                 </div>
 
@@ -81,7 +81,7 @@ const Card_sub = () => {
                             with your homework?
                             You should use Get Help For Online Class. We have experts from prestigious colleges that can
                             assist you with your task.</p>
-                        <a onClick={() => setShowModal(true)} class="btn-modal"> Get Help Now</a>
+                        <a href='#' onClick={() => setShowModal(true)} class="btn-modal"> Get Help Now</a>
                     </div>
                 </div>
 
@@ -95,7 +95,7 @@ const Card_sub = () => {
                             want to get the best
                             possible score on your test? Allow our pros to handle your online exam. Don't be concerned.
                             Our experts are prepared to take your online exam.</p>
-                        <a onClick={() => setShowModal(true)} class="btn-modal"> Get Help Now</a>
+                        <a href='#' onClick={() => setShowModal(true)} class="btn-modal"> Get Help Now</a>
                     </div>
                 </div>
                 {showmodal && <Popup_Modal onClose={() => setShowModal(false) }/>}

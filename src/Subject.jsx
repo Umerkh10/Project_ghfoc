@@ -151,7 +151,7 @@ const Subject = () => {
 
               <div className="col-lg-5">
                 <div className="image-container">
-                  <img src={Sub_sec} alt="" />
+                  <img src={Sub_sec} width={300} height={460} alt="sub_sec" />
                 </div>
               </div>
 

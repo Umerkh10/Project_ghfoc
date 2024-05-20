@@ -75,7 +75,7 @@ const Qualified = () => {
                         <div class="col-md-6">
                             <div class="qualified-img">
                                 <div class="image-container">
-                                    <img src={Qualified_right} style={{width:`100%`,height:`auto`}} height={600} width={400} alt="qualified" />
+                                    <img src={Qualified_right} style={{width:`100%`,height:`auto`}} height={500} width={500} alt="qualified" />
                                 </div>
                             </div>
                         </div>
@@ -96,8 +96,8 @@ const Qualified = () => {
                                 </div>
                                 <div className="col-lg-8 mb-3">
                                     <Slider className="customer-logos" {...settings}>
-                                        <div className="slide"><img src={Uni_img_1} style={{width:`60%`,height:`auto`,verticalAlign:`middle` }} width={200} height={400} alt="uni_1" /></div>
-                                        <div className="slide"><img src={Uni_img_2} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={400} alt="uni_2" /></div>
+                                        <div className="slide"><img src={Uni_img_1} style={{width:`60%`,height:`auto`,verticalAlign:`middle` }} width={200} height={90} alt="uni_1" /></div>
+                                        <div className="slide"><img src={Uni_img_2} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={90} alt="uni_2" /></div>
                                         <div className="slide"><img src={Uni_img_3} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={400} alt="uni_3" /></div>
                                         <div className="slide"><img src={Uni_img_4} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={400} alt="uni_4" /></div>
                                         <div className="slide"><img src={Uni_img_5} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={400} alt="uni_5" /></div>
