@@ -3,7 +3,7 @@ import "./home.css"
 import background from './assets/about-imgs/background-achievement.webp'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import Testi_png from './assets/testi-pngs/88415431_JEMA GER 1750-04.webp'
+import Testi_png from './assets/testi-pngs/88415431_JEMA_GER_1750-04.webp'
 import Testi_png_1 from './assets/testi-pngs/testi-img1.webp'
 const Achievement = () => {
     const responsive = {
@@ -99,7 +99,7 @@ return (
                 <div>
                     <div class="card equal-height">
                         <div class="card-header">
-                            <img src={Testi_png} style={{width:`40%`,height:`auto`}} width={200} height={400} alt='testimonial_1' />
+                            <img src={Testi_png} style={{width:`40%`,height:`auto`}} width={300} height={300} alt='testimonial_1' />
                         </div>
                         <div class="card-body">
                             <div class="card-content">

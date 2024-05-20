@@ -93,7 +93,7 @@ const About_Para = () => {
 
                         <div class="col-md-5">
                             <div class="img-sec-three my-3">
-                                <img class="image-container" src={sec_2_about} alt=""/>
+                                <img class="image-container" src={sec_2_about} width={300} height={300} alt="sec_2_about"/>
                             </div>
                         </div>
 

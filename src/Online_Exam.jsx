@@ -43,7 +43,7 @@ const Online_Exam = () => {
 
 
             <div className="col-lg-4">
-            <img className='banner-img' style={{width:`100%`,height:`auto`}} src={bannerImage} alt="banner" />
+            <img className='banner-img' style={{width:`100%`,height:`auto`}} width={400} height={400} src={bannerImage} alt="banner" />
             </div>
 
             <Form />
