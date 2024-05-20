@@ -202,6 +202,9 @@ span.index-module_type__E-SaG {
     font-weight: 700;
     text-decoration: underline 5px #272829;
 }
+.sub_box_list {
+    padding-left: 0px;
+}
 .sub-box {
     padding: 20px;
     display: flex;

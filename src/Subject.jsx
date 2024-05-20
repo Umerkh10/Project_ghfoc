@@ -18,6 +18,7 @@ const Subject = () => {
                 <div className="row">
 
                   <div className="col-lg-3 col-6">
+                    <ul className='sub_box_list'>
                     <li>
                       <div className="sub-box my-3">
                         <div className="sub-icon">
@@ -26,9 +27,11 @@ const Subject = () => {
                         <h5>Computer Science</h5>
                       </div>
                     </li>
+                    </ul>
                   </div>
 
                   <div className="col-lg-3 col-6">
+                  <ul className='sub_box_list'>
                     <li>
                       <div className="sub-box my-3">
                         <div className="sub-icon">
@@ -36,9 +39,11 @@ const Subject = () => {
                         <h5>Engineering</h5>
                       </div>
                     </li>
+                    </ul>
                   </div>
 
                   <div className="col-lg-3 col-6">
+                  <ul className='sub_box_list'>
                     <li>
                       <div className="sub-box my-3">
                         <div className="sub-icon">
@@ -46,9 +51,11 @@ const Subject = () => {
                         <h5>Education</h5>
                       </div>
                     </li>
+                    </ul>
                   </div>
 
                   <div className="col-lg-3 col-6">
+                  <ul className='sub_box_list'>
                     <li>
                       <div className="sub-box my-3">
                         <div className="sub-icon">
@@ -56,9 +63,11 @@ const Subject = () => {
                         <h5>Psychology</h5>
                       </div>
                     </li>
+                    </ul>
                   </div>
 
                   <div className="col-lg-3 col-6">
+                  <ul className='sub_box_list'>
                     <li>
                       <div className="sub-box my-3">
                         <div className="sub-icon">
@@ -67,9 +76,11 @@ const Subject = () => {
                         <h5>Chemistry</h5>
                       </div>
                     </li>
+                    </ul>
                   </div>
 
                   <div className="col-lg-3 col-6">
+                  <ul className='sub_box_list'>
                     <li>
                       <div className="sub-box my-3">
                         <div className="sub-icon">
@@ -78,9 +89,11 @@ const Subject = () => {
                         </div>
                       </div>
                     </li>
+                    </ul>
                   </div>
 
                   <div className="col-lg-3 col-6">
+                  <ul className='sub_box_list'>
                     <li>
                       <div className="sub-box my-3">
                         <div className="sub-icon">
@@ -89,9 +102,11 @@ const Subject = () => {
                         <h5>Physics</h5>
                       </div>
                     </li>
+                    </ul>
                   </div>
 
                   <div className="col-lg-3 col-6">
+                  <ul className='sub_box_list'>
                     <li>
                       <div className="sub-box my-3">
                         <div className="sub-icon">
@@ -100,9 +115,11 @@ const Subject = () => {
                         <h5>Maths</h5>
                       </div>
                     </li>
+                    </ul>
                   </div>
 
                   <div className="col-lg-3 col-6">
+                  <ul className='sub_box_list'>
                     <li>
                       <div className="sub-box my-3">
                         <div className="sub-icon">
@@ -111,9 +128,11 @@ const Subject = () => {
                         <h5>International Relations</h5>
                       </div>
                     </li>
+                    </ul>
                   </div>
 
                   <div className="col-lg-3 col-6">
+                  <ul className='sub_box_list'>
                     <li>
                       <div className="sub-box my-3">
                         <div className="sub-icon">
@@ -122,9 +141,11 @@ const Subject = () => {
                         <h5>Algebra</h5>
                       </div>
                     </li>
+                    </ul>
                   </div>
 
                   <div className="col-lg-3 col-6">
+                  <ul className='sub_box_list'>
                     <li>
                       <div className="sub-box my-3">
                         <div className="sub-icon">
@@ -133,9 +154,11 @@ const Subject = () => {
                         <h5>Social Science</h5>
                       </div>
                     </li>
+                    </ul>
                   </div>
 
                   <div className="col-lg-3 col-6">
+                  <ul className='sub_box_list'>
                     <li>
                       <div className="sub-box my-3">
                         <div className="sub-icon">
@@ -144,6 +167,7 @@ const Subject = () => {
                         <h5>Calculus</h5>
                       </div>
                     </li>
+                    </ul>
                   </div>
 
                 </div>
