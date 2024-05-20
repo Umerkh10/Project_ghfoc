@@ -48,6 +48,7 @@ else{
         <input onChange={(e)=>setEmail(e.target.value)} type="email" className='form-control mb-3' name='email' placeholder='Enter Your Email' required />
         <input onChange={(e)=>setPhone(e.target.value)} type="tel" id="phone" className='form-control mb-3' name='phone' placeholder='Enter Your Number' required />
         <div className="select-wrapper">
+          <label htmlFor="select-service" className='form-label'>which service are your intrested in</label>
       <select onChange={(e)=>setSubject(e.target.value)} name="subject" className='form-control mb-3 mt-3'  id="">
         <option value="" >Which Service are you interested in</option>
         <option value="online exam help">Online Exam Help</option>
