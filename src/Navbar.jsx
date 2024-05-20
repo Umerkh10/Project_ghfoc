@@ -36,12 +36,7 @@ function Navbar() {
                 <Link className="nav-logo" to="/">
                     <img className="logo" src={logo} height="60px" width="200px" alt="Logo" />
                 </Link>
-                {/* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor04"
-                    aria-controls="navbarColor04" aria-expanded="false" aria-label="Toggle navigation">
-                    <span>
-                        <i id="bar" class="fa-solid fa-bars"></i>
-                    </span>
-                </button> */}
+      
                 <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
                     <span class="navbar-toggler-icon"> <i id="bar" class="fa-solid fa-bars"></i></span>
                 </button>

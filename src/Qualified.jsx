@@ -18,20 +18,20 @@ const Qualified = () => {
         slidesToScroll: 1,
         slidesToShow: 3,
         responsive: [
-          {
-            breakpoint: 768, // Breakpoint for tablets
-            settings: {
-              slidesToShow: 2,
+            {
+                breakpoint: 768, // Breakpoint for tablets
+                settings: {
+                    slidesToShow: 2,
+                },
             },
-          },
-          {
-            breakpoint: 1024, // Breakpoint for desktops
-            settings: {
-              slidesToShow: 1,
+            {
+                breakpoint: 1024, // Breakpoint for desktops
+                settings: {
+                    slidesToShow: 1,
+                },
             },
-          },
         ],
-      };
+    };
 
     const [showmodal, setShowModal] = useState(false)
 
@@ -51,17 +51,29 @@ const Qualified = () => {
                                         manage your academics matters and get you the grade you want while you sit back and
                                         relax.</p>
                                     <div class="d-flex allign-items-center justify-content-between">
-                                        <ul class="uni-pts">
-                                            <div class="uni-li">
+                                        <div class="uni-li">
+                                            <ul class="uni-pts">
                                                 <li class="d-flex"> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5" /></svg>
                                                     24/7 Availablity</li>
+                                            </ul>
+
+                                            <ul class="uni-pts">
                                                 <li class="d-flex"> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5" /></svg>
                                                     No Middle Men</li>
+                                            </ul>
+
+                                            <ul class="uni-pts">
                                                 <li class="d-flex"> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5" /></svg>
                                                     Timely Submission</li>
+                                            </ul>
+
+                                            <ul class="uni-pts">
                                                 <li class="d-flex"> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5" /></svg>
                                                     Guranteed A Grade</li>
-                                            </div>
+                                            </ul>
+                                        </div>
+
+                                        <ul className='uni-pts'>
                                             <div class="action-row">
                                                 <a href='#' onClick={() => setShowModal(true)} class="btn-primary"> Get Help Now</a>
                                                 {showmodal && <Popup_Modal onClose={() => setShowModal(false)} />}
@@ -75,7 +87,7 @@ const Qualified = () => {
                         <div class="col-md-6">
                             <div class="qualified-img">
                                 <div class="image-container">
-                                    <img src={Qualified_right} style={{width:`100%`,height:`auto`}} height={500} width={500} alt="qualified" />
+                                    <img src={Qualified_right} style={{ width: `100%`, height: `auto` }} height={500} width={500} alt="qualified" />
                                 </div>
                             </div>
                         </div>
@@ -96,15 +108,15 @@ const Qualified = () => {
                                 </div>
                                 <div className="col-lg-8 mb-3">
                                     <Slider className="customer-logos" {...settings}>
-                                        <div className="slide"><img src={Uni_img_1} style={{width:`60%`,height:`auto`,verticalAlign:`middle` }} width={200} height={90} alt="uni_1" /></div>
-                                        <div className="slide"><img src={Uni_img_2} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={90} alt="uni_2" /></div>
-                                        <div className="slide"><img src={Uni_img_3} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={400} alt="uni_3" /></div>
-                                        <div className="slide"><img src={Uni_img_4} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={400} alt="uni_4" /></div>
-                                        <div className="slide"><img src={Uni_img_5} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={400} alt="uni_5" /></div>
-                                        <div className="slide"><img src={Uni_img_6} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={400} alt="uni_6" /></div>
-                                        <div className="slide"><img src={Uni_img_7} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={400} alt="uni_7" /></div>
-                                        <div className="slide"><img src={Uni_img_1} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={400} alt="uni_8" /></div>
-                                        <div className="slide"><img src={Uni_img_2} style={{width:`60%`,height:`auto`,verticalAlign:`middle`}} width={200} height={400} alt="uni_9" /></div>
+                                        <div className="slide"><img src={Uni_img_1} style={{ width: `60%`, height: `auto`, verticalAlign: `middle` }} width={200} height={90} alt="uni_1" /></div>
+                                        <div className="slide"><img src={Uni_img_2} style={{ width: `60%`, height: `auto`, verticalAlign: `middle` }} width={200} height={90} alt="uni_2" /></div>
+                                        <div className="slide"><img src={Uni_img_3} style={{ width: `60%`, height: `auto`, verticalAlign: `middle` }} width={200} height={90} alt="uni_3" /></div>
+                                        <div className="slide"><img src={Uni_img_4} style={{ width: `60%`, height: `auto`, verticalAlign: `middle` }} width={200} height={90} alt="uni_4" /></div>
+                                        <div className="slide"><img src={Uni_img_5} style={{ width: `60%`, height: `auto`, verticalAlign: `middle` }} width={200} height={90} alt="uni_5" /></div>
+                                        <div className="slide"><img src={Uni_img_6} style={{ width: `60%`, height: `auto`, verticalAlign: `middle` }} width={200} height={90} alt="uni_6" /></div>
+                                        <div className="slide"><img src={Uni_img_7} style={{ width: `60%`, height: `auto`, verticalAlign: `middle` }} width={200} height={90} alt="uni_7" /></div>
+                                        <div className="slide"><img src={Uni_img_1} style={{ width: `60%`, height: `auto`, verticalAlign: `middle` }} width={200} height={90} alt="uni_8" /></div>
+                                        <div className="slide"><img src={Uni_img_2} style={{ width: `60%`, height: `auto`, verticalAlign: `middle` }} width={200} height={90} alt="uni_9" /></div>
                                     </Slider>
                                 </div>
                             </div>

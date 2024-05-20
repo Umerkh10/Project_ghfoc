@@ -50,7 +50,7 @@ const Thank_You = () => {
                                 </div>
 
                                 <div class="col-md-4 text-center justify-content-center m-auto">
-                                    <img class="image-container" src={thank_you_banner} alt=""/>
+                                    <img class="image-container" src={thank_you_banner} width={400} height={400} alt="thank-you-banner"/>
                                 </div>
 
                             </div>
