@@ -67,7 +67,7 @@ else{
             </ul>
     </div>
 
-    <a rel=" noopener no-referrer"
+    <a rel=" noopener no-referrer" aria-label='whatsapp'
         href="https://api.whatsapp.com/send?phone=+17547788999&text=Welcome%20Get%20Help%20For%20Online%20Class">
         <i class="fa-brands fa-whatsapp fa-beat "></i>
     </a>
