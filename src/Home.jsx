@@ -4,6 +4,7 @@ import Form from './Form'
 import Popup_Modal from './Popup_Modal'
 import bannerImage from './assets/project imgs/banner-3.webp';
 import { TypeAnimation } from 'react-type-animation'
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
 
@@ -12,6 +13,12 @@ const Home = () => {
 
   return (
     <>
+      <Helmet>
+                <meta charSet="utf-8" />
+                <title>Home | Get Help For Online Class</title>
+                <meta name="description" content="Get help for your online classes from our experts" />
+            </Helmet>
+
       <TypeAnimation
         sequence={[
 
